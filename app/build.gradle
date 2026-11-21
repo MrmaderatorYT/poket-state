@@ -17,9 +17,25 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    // Release signing reads secrets from environment variables, never from source files.
+    // POKET_KEYSTORE, POKET_KEYSTORE_PASSWORD, POKET_KEY_ALIAS, POKET_KEY_PASSWORD
+    signingConfigs {
+        release {
+            if (System.getenv("POKET_KEYSTORE")) {
+                storeFile file(System.getenv("POKET_KEYSTORE"))
+                storePassword System.getenv("POKET_KEYSTORE_PASSWORD")
+                keyAlias System.getenv("POKET_KEY_ALIAS")
+                keyPassword System.getenv("POKET_KEY_PASSWORD")
+            }
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
+            if (System.getenv("POKET_KEYSTORE")) {
+                signingConfig signingConfigs.release
+            }
         }
     }
 
