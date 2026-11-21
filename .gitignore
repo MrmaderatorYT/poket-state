@@ -1,0 +1,20 @@
+# Build outputs
+build/
+app/build/
+.gradle/
+captures/
+.cxx/
+.externalNativeBuild/
+*.apk
+*.aab
+*.class
+
+# Local machine config
+local.properties
+*.iml
+.idea/
+.kotlin/
+
+# OS files
+.DS_Store
+Thumbs.db

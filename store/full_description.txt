@@ -1,0 +1,23 @@
+Poket State is a text-based strategy simulator about running a small country. You are the head of government. Every month brings new decisions, new crises and new trade-offs, and every choice ripples through the budget, your citizens and your standing abroad.
+
+Balance the books
+Your treasury is never safe for long. Collect taxes, set rates for each region, fund schools, hospitals and infrastructure, and watch the debt service. Inflation, the exchange rate and the trust of your population all move with the decisions you make.
+
+Govern the regions
+Each region has its own population, economy, wear on infrastructure and security level. Build industrial zones, expand land, found new regions and decide where your power plants and military bases go. A region that is neglected can slip out of your hands.
+
+Win the parliament
+Coalitions, ministers and elections decide what you can actually push through. Negotiate with factions, call confidence votes and appoint ministries. Strong ministers unlock reform waves, but they also cost money and can challenge you.
+
+Manage the state
+Your military and navy need equipment, crews and a plan. Recruit, transfer units between services, run counter-terror sweeps and decide whether to hire private military companies. Corruption and the anti-corruption bureau are always watching.
+
+Deal with the world
+Neighbouring countries have their own ambitions. Trade, negotiate, build unions and pacts, or prepare for conflict. Your reputation abroad affects every deal you can make.
+
+Plan with data
+Review charts of your key indicators over time, export the monthly series to CSV for your own analysis, and save checkpoints before risky moves. Switch between Ukrainian and English in the settings, and choose a dark or light theme.
+
+Several starting scenarios offer different challenges, from a standard start to a city in crisis. Use the mod menu if you want a sandbox to test ideas.
+
+Your progress is saved on your device.
